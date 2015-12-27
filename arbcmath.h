@@ -1,3 +1,6 @@
+#ifndef ARBCMATH_H
+#define ARBCMATH_H
+
 #include <complex.h>
 #include "acb.h"
 #include "acb_hypgeom.h"
@@ -265,3 +268,4 @@ DEF_FUNCTION_2(theta2, _acb_theta2(out1, in1, in2, wp))
 DEF_FUNCTION_2(theta3, _acb_theta3(out1, in1, in2, wp))
 DEF_FUNCTION_2(theta4, _acb_theta4(out1, in1, in2, wp))
 
+#endif
