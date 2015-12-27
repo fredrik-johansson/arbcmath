@@ -9,7 +9,7 @@ This code is public domain.
 
 C99 provides support for complex numbers via the standard library header `complex.h`, but only includes a handful of transcendental functions.
 
-This is a simple wrapper of Arb (https://github.com/fredrik-johansson/arb/), exposing many more useful complex transcendental functions in double precision.
+This is a simple wrapper of Arb (https://github.com/fredrik-johansson/arb/), exposing many more useful complex transcendental functions (Riemann zeta, polylogarithm, Bessel, incomplete gamma, hypergeometric, Jacobi theta, etc.) in double precision.
 
 All function arguments as well as the return value have the C99 `double complex` type. The output, if finite, is guaranteed to have a relative error that is at most a small multiple of `2^-53` (todo: specify an explicit multiple here), unless the function value is so small that this value underflows to zero. An infinite/NaN return value indicates either that the evaluation has failed to convergence (possibly due to trying to evaluate the function at a point where it is undefined).
 
