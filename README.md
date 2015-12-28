@@ -78,7 +78,8 @@ are not available in the 2.7.0 release).
     ac_aiprime(z)           Airy function derivative Ai'
     ac_bi(z)                Airy function Bi
     ac_biprime(z)           Airy function derivative Bi'
-    
+
+    ac_hyperu(a,b,z)        Confluent hypergeometric function U
     ac_hyp0f1(a,z)          Confluent hypergeometric function 0F1
     ac_hyp0f1r(a,z)         Regularized confluent hypergeometric function 0F1
     ac_hyp1f1(a,b,z)        Confluent hypergeometric function 1F1

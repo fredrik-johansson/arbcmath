@@ -203,6 +203,7 @@ DEF_FUNCTION_1(aiprime, acb_hypgeom_airy(NULL, out1, NULL, NULL, in1, wp))
 DEF_FUNCTION_1(bi, acb_hypgeom_airy(NULL, NULL, out1, NULL, in1, wp))
 DEF_FUNCTION_1(biprime, acb_hypgeom_airy(NULL, NULL, NULL, out1, in1, wp))
 
+DEF_FUNCTION_3(hyperu, acb_hypgeom_u(out1, in1, in2, in3, wp))
 DEF_FUNCTION_2(hyp0f1, acb_hypgeom_0f1(out1, in1, in2, 0, wp))
 DEF_FUNCTION_2(hyp0f1r, acb_hypgeom_0f1(out1, in1, in2, 1, wp))
 DEF_FUNCTION_3(hyp1f1, acb_hypgeom_m(out1, in1, in2, in3, 0, wp))
