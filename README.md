@@ -13,8 +13,7 @@ This is a simple wrapper of Arb (https://github.com/fredrik-johansson/arb/), exp
 
 All function arguments as well as the return value have the C99 `double complex` type. The output, if finite, is guaranteed to have a relative error that is at most a small multiple of `2^-53` (todo: specify an explicit multiple here), unless the function value is so small that this value underflows to zero. An infinite/NaN return value indicates either that the evaluation has failed to convergence (possibly due to trying to evaluate the function at a point where it is undefined).
 
-Currently, the git version of Arb is required (some functions
-are not available in the 2.7.0 release).
+Currently, Arb 2.8.0 (or the git master of Arb) is required.
 
 ## Provided functions
 
