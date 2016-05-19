@@ -15,4 +15,8 @@ int main()
     z = ac_hyperu(0.7 - 0.3 * I, 0.7 - 0.2 * I, 10.0 - 100.0 * I);
 
     printf("%.15g + %.15g*I\n", creal(z), cimag(z));
+
+    z = ac_hyp1f1(3.14, 2.78, 2015.1130*I);
+
+    printf("%.15g + %.15g*I\n", creal(z), cimag(z));
 }
