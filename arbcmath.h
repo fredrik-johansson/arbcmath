@@ -5,7 +5,7 @@
 #include "acb.h"
 #include "acb_hypgeom.h"
 #include "acb_modular.h"
-#include "double_extras.h"
+#include "flint/double_extras.h"
 
 #define MAKE_COMPLEX(re,im) ((re) + (im)*I)
 #define COMPLEX_NAN MAKE_COMPLEX(D_NAN, D_NAN)
