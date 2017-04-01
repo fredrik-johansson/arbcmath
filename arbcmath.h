@@ -14,7 +14,7 @@
     if (!isfinite(creal(x)) || !isfinite(cimag(x)))                 \
         return COMPLEX_NAN;                                         \
 
-static __inline__ double complex _acb_init_set_c(acb_t z, double complex v)
+static __inline__ void _acb_init_set_c(acb_t z, double complex v)
 {
     acb_init(z);
     acb_set_d_d(z, creal(v), cimag(v));
